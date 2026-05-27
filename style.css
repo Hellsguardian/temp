@@ -1,0 +1,153 @@
+.body{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 100vh;
+    background-color: rgb(220, 220, 220);
+}
+
+.card{
+    position: relative;
+    justify-content: center;
+    height:450px;
+    width: 350px;
+    background-color: rgb(235, 75, 75);
+    border-radius: 12%;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ctop {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
+    background-color:rgb(77, 142, 255) ;
+    border-top-left-radius: 30px;
+    
+}
+
+.circle{
+    
+    position: absolute;
+    top: 24%; /* directly on the border of child1 and child2 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border : solid 4px rgb(33, 140, 248) ;
+    overflow: hidden;
+}
+
+.boy{
+    margin-top: 22px;
+}
+
+
+.cbottom {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);  
+    width: 100%;
+    height: 65%;
+    border-bottom-right-radius: 30px;
+}
+
+.head {
+  text-align: center;
+  margin : 2%;
+  font-size: 20px;
+  opacity: 0.7;
+  font-weight: 700;
+  padding: 0%;
+}
+
+.subhead {
+  text-align: center;
+  margin-top: 0%;
+  opacity: 0.7;
+}
+
+
+.icons {
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 5px;
+    height: auto;
+    width: 220px;
+}
+
+.F{
+    color: rgb(237, 247, 255);
+    text-align: center;
+    background-color: rgb(30, 0, 255); 
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.T{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(0, 115, 255); 
+      height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.I{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(255, 161, 74); 
+      height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+.Y{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(255, 255, 255); 
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.buttons{
+    margin-top:15px;
+    margin-right: 5px;
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+   gap: 15px;
+}
+
+.b1  , .b2{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(56, 116, 245);
+    border-radius: 30px;
+    color: aliceblue;
+    border: none;
+}
+
+.b1:hover , .b2:hover {
+    background-color: rgba(56, 116, 245, 0.204);
+    color: rgb(20, 20, 20);
+}
+
+.elements {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
